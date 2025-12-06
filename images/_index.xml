@@ -1,8 +1,0 @@
-<folder xmlns="">
-  <self description="">
-    <accesscontrollist>
-      <user name="default" read="false" write="false" listcontents="false" />
-      <group id="1" read="true" write="true" listcontents="true" />
-    </accesscontrollist>
-  </self>
-</folder>
