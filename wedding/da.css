@@ -1,0 +1,97 @@
+/* mfo.css */
+
+/* Global Styles */
+BODY {	background : url(images/bg.jpg);	font-family : Verdana, sans-serif;	
+			scrollbar-face-color: #c0c0c0; scrollbar-shadow-color: #660099;
+			scrollbar-highlight-color: #660099; scrollbar-3dlight-color: #FFFFFF;
+			scrollbar-track-color: #999999; scrollbar-arrow-color: #660099;
+			color : Black;
+}
+
+	A.nav:link  { text-decoration: none; color: Gray;  font-size: xx-small;	font-family: Verdana, Arial, Helvetica; font-weight : bold;}
+	A.nav:visited {	text-decoration: none; color: silver;  font-size: xx-small;	font-family: Verdana, Arial, Helvetica; font-weight : bold;}
+	A.nav:hover {text-decoration: underline;	color: #660099;   font-size: xx-small;	font-family: Verdana, Arial, Helvetica; font-weight : bold;}
+
+	A:link  { text-decoration: none; color: #333333;  font-size: x-small;	font-family: Verdana, Arial, Helvetica;}
+	A:visited {	text-decoration: none; color: #666666; font-size: x-small;	font-family: Verdana, Arial, Helvetica;}
+	A:hover {text-decoration: underline;	color: #660099; font-size: x-small;	font-family: Verdana, Arial, Helvetica;}
+	
+	A.postselected  { text-decoration: none; color: #FFB019;  font-size: 8pt;	font-family: Verdana, Arial, Helvetica; font-weight : bold;}
+	
+	
+.text {	color: #000000;	font-size: x-small;	font-family: Verdana, Arial, Helvetica;}
+.highlight {	color: #660099;	font-size: x-small;	font-family: Verdana, Arial, Helvetica; font-weight : bold;}
+
+.whitetext {	color: White;	font-size: 10pt;	font-family: Verdana, Arial, Helvetica;}	
+.smalltext {	color: Black;	font-size: 8pt;	font-family: Verdana, Arial, Helvetica;}	
+.smallwhitetext {	color: White;	font-size: 8pt;	font-family: Verdana, Arial, Helvetica;}
+.compressedtext {color: Gray; 	text-decoration:none;	font-size: 10px;	LINE-HEIGHT: 10px; font-family: Verdana, Arial, Helvetica;	font-weight:bold; }
+.subtitle {color: white; 	text-decoration:none;	font-size: 12px;	LINE-HEIGHT: 10px; font-family: Verdana, Arial, Helvetica;	font-weight:bold; }
+
+h1 {font-family : cursive;	font-size : 16pt;	color : #660099;  font-weight : bold;    font-variant : normal;    }
+
+
+/* Outdated styles */	
+.mfotext {	color: #000000;	font-size: 10pt;	font-family: Verdana, Arial, Helvetica;}
+.mfowhite {	color: White;	font-size: 10pt;	font-family: Verdana, Arial, Helvetica;}
+.mfosmall {	color: #000000;	font-size:8pt;	font-family: Verdana, Arial, Helvetica;}
+.mfowhitesmall {	color: White;	font-size: 8pt;	font-family: Verdana, Arial, Helvetica;}
+.postcommands1 {	color : #FFFFFF;	font-size: x-small;	font-family: Verdana, Arial, Helvetica;	text-decoration : none;}	
+.postsignature1 {	color: #000000;	font-size: 10pt;	font-family: Verdana, Arial, Helvetica;}	
+.linething {	color: #FFFFFF;	text-decoration:none;	LINE-HEIGHT: 2px;	text-decoration:none;	font-family: Verdana, Arial, Helvetica;}
+.backbarDiv {	position:absolute;	left:0px;	height: 16px;	width: 100%;	visibility: show;	visibility: visible;	color:#4A719C;	z-index:1;}
+
+/* Threadlistings Styles */
+	
+.thdr {	background-color : #264C29; color: white;	font-size: xx-small;	font-family: Verdana, Arial, Helvetica;	font-weight : bold;  background-image : url(http://files.mrfixitonline.com/s/4/thdr.gif); }
+.ttable{width : 100%;	word-spacing : 0;  background-color : black; }
+.trow1 {	color: #D7CEA4;	font-size: 8pt;	font-family: Verdana, Arial, Helvetica; vertical-align : top;  background-color : #464646; font-weight : bold;}
+.trow2 {	color: #D7CEA4;	font-size: 8pt; 	font-family: Verdana, Arial, Helvetica; vertical-align : top;  background-color : #333333; font-weight : bold;}
+.tcol1 {	color: #D7CEA4;	font-size: 8pt;       font-family: Verdana, Arial, Helvetica; vertical-align : top;  background-color : #464646;   font-weight : bold;}
+.tcol2 {	color: #D7CEA4;	font-size: 8pt;	 font-family: Verdana, Arial, Helvetica; vertical-align : top;  background-color : #333333;   font-weight : bold;}
+.tsmall {	color: Gray;	font-size: xx-small;	font-family: Verdana, Arial, Helvetica;}
+
+.threadselrowcol1 {	background-color : #2C2A26;	color: #f5f5f5;	font-size: x-small;	font-family: Verdana, Arial, Helvetica;}
+.threadselrowcol2 {	background-color : #2C2A26;	color: #f5f5f5;	font-size: x-small;	font-family: Verdana, Arial, Helvetica;}
+
+/* Posting Styles */
+.postbody {	background-color : #F7F7F7;	color: #000000;	font-size: 10pt;	font-family: Verdana, Arial, Helvetica;}
+	a.username:link {	font-family : "verdana";	font-size : 14pt;	color : black;	font-style : italic;	font-weight : bold;  text-decoration : none; }
+	a.username:visited {	font-family : "verdana";	font-size : 14pt;	color : black;	font-style : italic;	font-weight : bold;  text-decoration : none; }
+	a.username:hover {	font-family : "verdana";	font-size : 14pt;	color : #FFB019;	font-style : italic;	font-weight : bold;  text-decoration : none; }
+.textsig1 {	valign:bottom; 	left:0; 	top:0; 	clip:rect(0 1600 100 0); font-size: 10pt;	font-family: Verdana, Arial, Helvetica;}
+.textsig2 {	left:0; 	top:0; 	clip:rect(0 1600 100 0) font-size: 10pt;	font-family: Verdana, Arial, Helvetica;;}
+.mediasig1{	valign:bottom; 	left:0; 	top:0; 	clip:rect(0 1600 130 0); height:130; 	position:relative; 	valign:bottom; }
+.mediasig2{	left:0; 	top:0;  clip:rect(0 1600 130 0); height:130; 	 position:absolute; }
+
+/* Article Styles */
+table.article{ width: 90%; border-style: solid; border-width: 1px; border-color: #464646;}
+td.header{	font-size: 10pt; font-weight : bold;  color : #FFB019; border-style: solid; border-width: 1px; background-color: black;	border-color: #979797 #979797 #171717 #171717;}
+td.row1{	font-size: 10pt; color : #D7CEA4; 	background-color: #464646; border-color: gray; border-style: solid; border-width: 1px;}
+td.row2{	font-size: 10pt;  color : #D7CEA4; background-color:#333333; border-color: gray; border-style: solid; border-width: 1px;}
+
+/* sqlBBS Menu bar styles */
+.netscape-bugfix {	color: #FFFFFF;	text-decoration:none;	font-size: 14px;	text-decoration:none;	font-family: Verdana, Arial, Helvetica, Sans-Serif;	font-weight:bold;}
+
+.menuheader {	color: #FFFFFF;	text-decoration:none;	font-size: 10px;	LINE-HEIGHT: 12px; font-family: Verdana, Arial, Helvetica;	font-weight:bold; border : 1px  #660099;  width : 100%; }
+.menuheader:visited {	color: #FFFFFF;	text-decoration:none;}
+.menuheader:link {	color: #FFFFFF;	text-decoration:none; border : 1px  #660099;  width : 98%;}
+.menuheader:hover {	color: #FFB019;}
+.menuitem {	color: #FFB019; 	text-decoration:none;	font-size: 10px;	LINE-HEIGHT: 14px; font-family: Verdana, Arial, Helvetica;	font-weight:bold; border : 1px  #660099;  width : 100%;}
+.menuitem:visited {	color: #FFFFFF;	text-decoration:none;}
+.menuitem:link {	color: #FFFFFF;	text-decoration:none; border : 1px  #660099;  width : 98%;}
+.ie4menuitem {	color: #FFFFFF;	text-decoration:none;	font-size: 10px;	LINE-HEIGHT: 14px;	font-family: Verdana, Arial, Helvetica;	font-weight:bold;}
+.ie4menuitem:hover {	color: #FFB019;}
+all.menus {	position: absolute;	visibility: hide;	visibility: hidden;	color: #FFFFFF; border : 1px  #660099;}
+.line {	color: #660099;	text-decoration:none;	LINE-HEIGHT: 2px;	font-family: Verdana, Arial, Helvetica;}
+#menubg {	position:absolute;	left:0px;	height: 16px;	width: 100%;	visibility: show;	visibility: visible;	color: #333333;	 z-index:1;  border : 1px groove #660099;    }
+
+
+/* sqlBBS code*/
+
+.secTab {	font-family: Verdana,Arial, Sans Serif;	font-size: 10px;	text-align: center;	padding-left: 5px;	padding-right: 5px;	padding-bottom: 2px;	background-color : Gray;	width: 60;	color : White;}
+.secTabOn {	font-family: Verdana,Arial, Sans Serif;	font-size: 10px;	text-align: center;	padding-left: 5px;	padding-right: 5px;	padding-bottom: 2px;	background-color : #cccccc;	width: 60;}
+td { color: black; font-size: 10pt; font-family: Verdana, Arial, Helvetica }
+.dropdown {	background-color : #333333;	color: white;	text-decoration:none;	font-size: 10px; LINE-HEIGHT: 14px;	font-family: Verdana, Arial, Helvetica;	font-weight:bold; }
+.dropdown:hover {	background-color : #666666;	color: #FFB019;	text-decoration:none;	font-size: 10px; LINE-HEIGHT: 14px;	font-family: Verdana, Arial, Helvetica;	font-weight:bold; }	
+.textinput   { background-color : #333333;	color: white;	text-decoration:none;	font-size: 10px; LINE-HEIGHT: 14px;	font-family: Verdana, Arial, Helvetica;	font-weight:bold;  border-color : black;  }	}
